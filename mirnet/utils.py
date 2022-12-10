@@ -31,7 +31,7 @@ def download_dataset(dataset_tag):
     print('Downloading dataset...')
     if dataset_tag == 'LOL':
         gdown.download(
-            'https://drive.google.com/uc?id=157bjO1_cFuSd0HWDUuAmcHRJDVyWpOxB',
+            'https://drive.google.com/file/d/1YztDWbK3MV5EroSpuWmYlPsmFcFGoLmq/',
             'LOLdataset.zip', quiet=False
         )
         print('Unpacking Dataset')
